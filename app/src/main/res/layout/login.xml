@@ -78,14 +78,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:textColorHint="@color/white">
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginRight="16dp"
-                    android:hint="Email"
+                     android:hint="Email"
                     android:inputType="textEmailAddress"
                     android:textColor="@color/white"
                     android:textColorHighlight="@color/white"
@@ -105,8 +104,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginRight="16dp"
-                    android:hint="Password"
+                     android:hint="Password"
                     android:inputType="text"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white" />
@@ -115,11 +113,13 @@
 
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginBottom="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="end"
                 android:text="Forgot Password?"
                 android:textColor="@color/white"

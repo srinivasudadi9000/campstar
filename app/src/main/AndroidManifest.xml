@@ -14,7 +14,7 @@
         android:roundIcon="@drawable/campstar_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Editprofile">
+        <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".Splash"></activity>
+        <activity android:name=".Splash" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Forgotpassword" />
+        <activity android:name=".Otp" />
+        <activity android:name=".Editprofile"></activity>
     </application>
 
 </manifest>

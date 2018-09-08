@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash_bg"
+    android:background="@drawable/login_bg"
     tools:context=".Login">
 
     <ScrollView
@@ -17,8 +17,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:src="@drawable/campstar_logo" />
@@ -84,7 +84,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                     android:hint="Email"
+                    android:hint="Email"
                     android:inputType="textEmailAddress"
                     android:textColor="@color/white"
                     android:textColorHighlight="@color/white"
@@ -104,7 +104,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                     android:hint="Password"
+                    android:hint="Password"
                     android:inputType="text"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white" />
@@ -113,20 +113,22 @@
 
 
             <TextView
-                android:layout_gravity="end"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="32dp"
+                android:layout_gravity="end"
                 android:layout_marginBottom="16dp"
+                android:layout_marginLeft="32dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="24dp"
                 android:gravity="end"
+                android:id="@+id/forgotpassword_tv"
                 android:text="Forgot Password?"
                 android:textColor="@color/white"
                 android:textSize="18dp"
                 android:textStyle="normal" />
 
             <Button
+                android:id="@+id/login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginLeft="16dp"
@@ -134,7 +136,9 @@
                 android:layout_marginTop="16dp"
                 android:background="@color/white"
                 android:text="Login"
-                android:textColor="@color/red" />
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/splash_bg_color" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -150,16 +154,21 @@
                     android:layout_weight="1"
                     android:gravity="center|end"
                     android:text="New User?"
+                    android:textSize="18dp"
                     android:textColor="@color/white" />
 
                 <TextView
+                    android:textAllCaps="false"
+                    android:id="@+id/signup_tv"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="start|center"
                     android:paddingLeft="10dp"
                     android:text="Signup"
-                    android:textColor="@color/black" />
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/splash_bg_color" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

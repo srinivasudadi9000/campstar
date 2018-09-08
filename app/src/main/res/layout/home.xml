@@ -16,10 +16,10 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_gravity="start"
         android:id="@+id/myll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="start"
         android:layout_marginRight="32dp"
         android:background="@color/white"
         android:orientation="vertical">

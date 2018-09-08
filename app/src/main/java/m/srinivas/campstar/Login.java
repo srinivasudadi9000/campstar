@@ -11,7 +11,8 @@ import android.widget.TextView;
 
 public class Login extends Activity implements View.OnClickListener {
     TextView signup_tv, forgotpassword_tv;
-Button login_btn;
+    Button login_btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

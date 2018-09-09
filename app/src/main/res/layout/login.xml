@@ -99,13 +99,16 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/white"
                 android:textColorHint="@color/white">
 
                 <EditText
+
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:hint="Password"
-                    android:inputType="text"
+                    android:inputType="textPassword"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white" />
 

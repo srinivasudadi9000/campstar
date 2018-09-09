@@ -26,7 +26,8 @@
         <activity android:name=".Signup" />
         <activity android:name=".Forgotpassword" />
         <activity android:name=".Otp" />
-        <activity android:name=".Editprofile"></activity>
+        <activity android:name=".Editprofile" />
+        <activity android:name=".MyProfile"></activity>
     </application>
 
 </manifest>

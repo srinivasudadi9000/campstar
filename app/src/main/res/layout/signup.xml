@@ -116,6 +116,7 @@
                 android:layout_marginTop="16dp"
                 android:background="@color/white"
                 android:text="Continue"
+                android:id="@+id/register_btn"
                 android:textStyle="bold"
                 android:textAllCaps="false"
                 android:textColor="@color/splash_bg_color"

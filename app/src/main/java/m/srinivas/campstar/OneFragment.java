@@ -29,9 +29,13 @@ public class OneFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         groups = new ArrayList<Groups>();
-        groups.add(new Groups("dadi"));
-        groups.add(new Groups("dadi"));
-        groups.add(new Groups("dadi"));
+        groups.add(new Groups("dadi",R.drawable.pavan));
+        groups.add(new Groups("dadi",R.drawable.anasuya));
+        groups.add(new Groups("dadi",R.drawable.pavantwo));
+        groups.add(new Groups("dadi",R.drawable.telugudesam));
+        groups.add(new Groups("dadi",R.drawable.news));
+        groups.add(new Groups("dadi",R.drawable.anasuya));
+        groups.add(new Groups("dadi",R.drawable.ycp));
         // Inflate the layout for this fragment
         // return inflater.inflate(R.layout.fragment_one, container, false);
         View rootView = inflater.inflate(R.layout.fragment_one, container, false);

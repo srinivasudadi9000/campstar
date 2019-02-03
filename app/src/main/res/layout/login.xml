@@ -42,37 +42,7 @@
                 android:textColor="@color/white"
                 android:textSize="18dp"
                 android:textStyle="normal" />
-            <!--
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
 
-                            <View
-                                android:layout_marginTop="68dp"
-                                android:layout_width="match_parent"
-                                android:layout_height="3dp"
-                                android:layout_marginLeft="16dp"
-                                android:layout_marginRight="16dp"
-                                android:background="@color/white" />
-
-                            <android.support.design.widget.TextInputLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="16dp"
-                                android:layout_marginRight="16dp"
-                                android:layout_marginTop="16dp">
-
-                                <EditText
-                                    android:layout_width="match_parent"
-                                    android:layout_height="50dp"
-                                    android:layout_marginRight="16dp"
-                                    android:hint="Password"
-                                    android:inputType="number"
-                                    android:textColorHint="@color/white" />
-
-                            </android.support.design.widget.TextInputLayout>
-                        </RelativeLayout>
-            -->
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,6 +52,7 @@
                 android:textColorHint="@color/white">
 
                 <EditText
+                    android:id="@+id/email_et"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:hint="Email"
@@ -104,7 +75,7 @@
                 android:textColorHint="@color/white">
 
                 <EditText
-
+                    android:id="@+id/password_tv"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:hint="Password"

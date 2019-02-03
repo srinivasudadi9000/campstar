@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -30,6 +31,7 @@ public class Group_Adapter extends RecyclerView.Adapter<Group_Adapter.MyHolder> 
     @Override
     public void onBindViewHolder(@NonNull MyHolder holder, int position) {
         holder.group_title_tv.setText(groups.get(position).getGroupname());
+        holder.post_img.setImageDrawable(context.getResources().getDrawable(groups.get(position).getPavan()));
     }
 
     @Override
@@ -40,10 +42,12 @@ public class Group_Adapter extends RecyclerView.Adapter<Group_Adapter.MyHolder> 
 
     public class MyHolder extends RecyclerView.ViewHolder {
         TextView group_title_tv;
-
+        ImageView post_img;
         public MyHolder(@NonNull View itemView) {
             super(itemView);
+            post_img = itemView.findViewById(R.id.post_img);
             group_title_tv = itemView.findViewById(R.id.group_title_tv);
         }
     }
+
 }

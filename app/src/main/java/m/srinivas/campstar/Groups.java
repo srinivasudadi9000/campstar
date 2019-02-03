@@ -2,8 +2,17 @@ package m.srinivas.campstar;
 
 public class Groups {
     String groupname;
-    Groups(String groupname){
-        this.groupname = groupname;
+    int pavan;
+    Groups(String groupname,int pavan){
+        this.groupname = groupname;this.pavan = pavan;
+    }
+
+    public int getPavan() {
+        return pavan;
+    }
+
+    public void setPavan(int pavan) {
+        this.pavan = pavan;
     }
 
     public String getGroupname() {
